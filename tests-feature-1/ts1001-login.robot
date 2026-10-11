@@ -17,7 +17,7 @@ Successful Login
 Successful Login with Validate
     Login with Successful
 
-    # Validate Login Success
+    # Validate Login Successs
     Wait Until Element Is Visible    xpath=//h1    10s
     Element Text Should Be    xpath=//h1    Welcome!
     Capture Page Screenshot    filename=validate1.png
